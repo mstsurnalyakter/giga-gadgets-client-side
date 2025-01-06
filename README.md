@@ -1,17 +1,74 @@
-## I Create Technology and Electronics category. My Project Name is GigaGadgets.
 # GigaGadgets
+
+## Overview
+GigaGadgets is a web application designed for showcasing and managing technology and electronics products. The application features product listings by brand, detailed product pages, user authentication, and a dark mode option.
+
 
 ### Live Link : https://gigagadgets-f4dcf.web.app/
 
-### key Features
-
-
+## Key Features
 - Product Brands Listing
 - Product Page According To Brand
-- Show Product Details 
-- User can be add product to cart(dynamic Cart)
-- Add,Update Product
-- Authentication (email , password, googleLogin, githubLogin)
-- Show user feedback
-- Dark mode,Light Mode
-# giga-gadgets-client-side
+- My Cart
+- Show Product Details
+- Authentication (email, password, Google login, GitHub login)
+- Dark mode, Light Mode
+
+## Running the Project Locally
+
+### Prerequisites
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/mstsurnalyakter/giga-gadgets-client-side.git
+    cd giga-gadgets-client-side
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+3. Create a [.env.local] file in the root directory and add your Firebase configuration:
+    ```env
+    VITE_FIREBASE_API_KEY=your_api_key
+    VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+    VITE_FIREBASE_PROJECT_ID=your_project_id
+    VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+    VITE_FIREBASE_APP_ID=your_app_id
+    ```
+
+4. Start the development server:
+    ```sh
+    npm run dev
+    ```
+
+## Screenshots
+
+### Home Page
+![Home Page](https://i.postimg.cc/W1jVdFWJ/home.png)
+
+### SignUp Page
+![SignUp Page](https://i.postimg.cc/JnyVfbnS/signup.png)
+
+### Login Page
+![Login Page](https://i.postimg.cc/yxcqds0P/login.png)
+
+### Add Product Page
+![Add Product Page](https://i.postimg.cc/MHx57Sht/add-product.png)
+
+### Product Details Page
+![Product Details Page](https://i.postimg.cc/3Jt1vz9C/details.png)
+
+### Brand Product Page
+![Brand Product Page](https://i.postimg.cc/W4kwxzVX/band.png)
+
+### My Card Page
+![My Card Page](https://i.postimg.cc/NG473Whq/cart.png)
+
+### Not Found Page
+![Not Found Page](https://i.postimg.cc/ZKsPRpKw/404.png)

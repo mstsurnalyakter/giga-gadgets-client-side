@@ -13,7 +13,7 @@ const ProductsDetails = () => {
   const [product,setProduct] = useState({});
 
   useEffect(()=>{
-    fetch(`http://localhost:5000/updateProduct/${id}`)
+    fetch(`https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/updateProduct/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -34,7 +34,7 @@ const ProductsDetails = () => {
 
     const info = { name, price, image, type, rating, brand };
 
-    fetch(`http://localhost:5000/singleProduct/${id}`,{
+    fetch(`https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/singleProduct/${id}`,{
       method:"PUT",
       headers:{
         "Content-Type":"application/json"

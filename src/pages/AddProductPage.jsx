@@ -1,8 +1,4 @@
-import { useEffect, useState } from "react";
-import { baseURL } from "../utilitis/Url.js";
-import toast from "react-hot-toast";
-import Spinner from "../components/Spinner.jsx";
-import { useLoaderData } from "react-router-dom";
+
 import useAuth from "../hooks/useAuth.jsx";
 import Swal from "sweetalert2";
 
@@ -166,6 +162,7 @@ const AddProductPage = ({ update }) => {
           </div>
 
           <input
+          disabled
             className="px-4 w-full py-2 mt-4 rounded hover:bg-[#ab3154]  bg-[#FF497C] duration-200 text-white cursor-pointer font-semibold"
             type="submit"
             value="Add Product"

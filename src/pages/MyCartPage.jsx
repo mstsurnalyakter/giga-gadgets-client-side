@@ -12,7 +12,7 @@ const MyCartPage = () => {
   const [item, setItem] = useState([]);
   // console.log(user);
   useEffect(() => {
-    fetch(`http://localhost:5000/myProduct/${user?.email}`)
+    fetch(`https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/myProduct/${user?.email}`)
       .then((res) => res.json())
       .then((data) => {
         setItem(data);
@@ -32,7 +32,7 @@ const MyCartPage = () => {
         confirmButtonText: "Yes, delete it!",
       }).then((result) => {
         if (result.isConfirmed) {
-          fetch(`http://localhost:5000/deleteProduct/${id}`, {
+          fetch(`https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/deleteProduct/${id}`, {
             method: "DELETE",
           })
             .then((res) => res.json())

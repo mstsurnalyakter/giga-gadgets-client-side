@@ -26,8 +26,9 @@ const AddProductPage = ({ update }) => {
 
     const info = { name, price, image, type, email,rating,brand };
     console.log(info);
+    //https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/products
 
-    fetch("https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/addProduct", {
+    fetch("https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body:JSON.stringify(info)
@@ -162,8 +163,7 @@ const AddProductPage = ({ update }) => {
           </div>
 
           <input
-          disabled
-            className="px-4 disabled:cursor-not-allowed w-full py-2 mt-4 rounded hover:bg-[#ab3154]  bg-[#FF497C] duration-200 text-white cursor-pointer font-semibold"
+            className="px-4  w-full py-2 mt-4 rounded hover:bg-[#ab3154]  bg-[#FF497C] duration-200 text-white cursor-pointer font-semibold"
             type="submit"
             value="Add Product"
           />

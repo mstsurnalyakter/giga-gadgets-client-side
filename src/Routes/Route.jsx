@@ -32,15 +32,15 @@ const Route = createBrowserRouter([
           </ProtectedRoute>
         ),
       },
-      {
-        path: "/product/update/:id",
-        element: (
-          <ProtectedRoute>
-            <AddProductPage update={true} />
-          </ProtectedRoute>
-        ),
-        loader: oneProductLoader,
-      },
+      // {
+      //   path: "/product/update/:id",
+      //   element: (
+      //     <ProtectedRoute>
+      //       <AddProductPage update={true} />
+      //     </ProtectedRoute>
+      //   ),
+      //   loader: oneProductLoader,
+      // },
       {
         path: "/products/:id",
         element: (

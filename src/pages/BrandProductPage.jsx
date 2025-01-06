@@ -1,5 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
-import ProductCard from "../components/Cards/ProductCard";
+
 import BrandAdvertise from "../components/header/BrandAdvertise";
 
 const BrandProductPage = () => {

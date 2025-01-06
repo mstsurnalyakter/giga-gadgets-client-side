@@ -27,7 +27,7 @@ const AddProductPage = ({ update }) => {
     const info = { name, price, image, type, email,rating,brand };
     console.log(info);
 
-    fetch("http://localhost:5000/addProduct", {
+    fetch("https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/addProduct", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body:JSON.stringify(info)

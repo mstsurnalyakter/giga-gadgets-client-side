@@ -1,9 +1,6 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { Link } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import { useEffect, useState } from "react";
-import { baseURL } from "../utilitis/Url";
-import toast from "react-hot-toast";
-import Spinner from "../components/Spinner";
 import Swal from "sweetalert2";
 
 const MyCartPage = () => {

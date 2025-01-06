@@ -25,7 +25,7 @@ const {image,brandName,description,price,rating,type} = product || {};
 
   return (
   <div className="min-h-screen flex items-center justify-center">
-      <div className="flex-col gap-6   lg:flex-row w-3/4 mx-auto flex border items-center p-5  shadow-xl">
+      <div className="flex-col gap-6  dark:text-white  lg:flex-row w-3/4 mx-auto flex border items-center p-5  shadow-xl">
     <img
         src={image}
         className="" />

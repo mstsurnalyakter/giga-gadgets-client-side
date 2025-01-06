@@ -4,8 +4,6 @@
 GigaGadgets is a web application designed for showcasing and managing technology and electronics products. The application features product listings by brand, detailed product pages, user authentication, and a dark mode option.
 
 
-### Live Link : https://gigagadgets-f4dcf.web.app
-
 ## Key Features
 - Product Brands Listing
 - Product Page According To Brand

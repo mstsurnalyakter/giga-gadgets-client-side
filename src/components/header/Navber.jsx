@@ -1,7 +1,6 @@
 // image import
 import { useState } from "react";
 import logo from "../../assets/logo.png";
-import userProfile from "../../assets/user-profile.png";
 import darkimg from "../../assets/dark.png";
 import lightimg from "../../assets/light.png";
 import { Link, NavLink, useNavigate } from "react-router-dom";
@@ -62,21 +61,6 @@ const Navber = ({ setDarkMode, darkMode }) => {
               >
                 <span>Add Product</span>
               </NavLink>
-            </li>
-            <li>
-              {/* <NavLink
-                to="/myCart"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#FF497C] border-b-4 border-[#FF497C]"
-                    : "hover:text-[#FF497C]"
-                }
-              >
-                <span>My Cart</span>
-              </NavLink> */}
-              <Link to="/myCart">My Added Product</Link>
             </li>
           </ul>
         </nav>
@@ -143,7 +127,6 @@ const Navber = ({ setDarkMode, darkMode }) => {
       </header>
 
       {/* Side Menu */}
-      {/* transition-transform transform -translate-x-full */}
       <div
         className={`absolute ${
           sideOpen ? "" : "hidden"
@@ -153,7 +136,6 @@ const Navber = ({ setDarkMode, darkMode }) => {
           <a href="" className=" flex-shrink-0 flex items-center ">
             <img
               className="w-[200px]  h-[70px] object-cover"
-              // src="https://i.ibb.co/W6ZXdqN/2021-10-26-16h20-21.png"
               src={logo}
               alt=""
             />
@@ -187,21 +169,6 @@ const Navber = ({ setDarkMode, darkMode }) => {
                 }
               >
                 <span>Add Product</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                onClick={() => setSideOpen(!sideOpen)}
-                to="/myCart"
-                className={({ isActive, isPending }) =>
-                  isPending
-                    ? "pending"
-                    : isActive
-                    ? "text-[#FF497C] border-b-4 border-[#FF497C]"
-                    : "hover:text-[#FF497C]"
-                }
-              >
-                <span>My Cart</span>
               </NavLink>
             </li>
           </ul>

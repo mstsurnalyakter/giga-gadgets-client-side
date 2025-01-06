@@ -3,7 +3,6 @@
 ## Overview
 GigaGadgets is a web application designed for showcasing and managing technology and electronics products. The application features product listings by brand, detailed product pages, user authentication, and a dark mode option.
 
-
 ## Key Features
 - Product Brands Listing
 - Product Page According To Brand
@@ -60,13 +59,8 @@ GigaGadgets is a web application designed for showcasing and managing technology
 ![Add Product Page](https://i.postimg.cc/MHx57Sht/add-product.png)
 
 ### Product Details Page
-![Product Details Page](https://i.postimg.cc/3Jt1vz9C/details.png)
+![Product Details Page]()
 
-### Brand Product Page
-![Brand Product Page](https://i.postimg.cc/W4kwxzVX/band.png)
-
-### My Card Page
-![My Card Page](https://i.postimg.cc/NG473Whq/cart.png)
 
 ### Not Found Page
 ![Not Found Page](https://i.postimg.cc/ZKsPRpKw/404.png)

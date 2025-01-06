@@ -24,13 +24,14 @@ const {image,brandName,description,price,rating,type} = product || {};
 
 
   return (
-    <div className="flex-col gap-6  lg:flex-row w-3/4 mx-auto flex items-center p-2 shadow-xl">
+  <div className="min-h-screen flex items-center justify-center">
+      <div className="flex-col gap-6   lg:flex-row w-3/4 mx-auto flex border items-center p-5  shadow-xl">
     <img
         src={image}
         className="" />
         <div className="space-y-5">
         <h1 className="text-5xl font-bold">{brandName}</h1>
-        <p className="py-6">
+        <p className="py-6 w-3/4">
           {description}
         </p>
         <div className="flex justify-between items-center">
@@ -39,6 +40,7 @@ const {image,brandName,description,price,rating,type} = product || {};
           <p><b>Type:</b><span> {type}</span></p>
         </div>
       </div>
+  </div>
   </div>
   );
 };

@@ -3,7 +3,6 @@ import Root from "../Layouts/Root";
 import HomePage from "../pages/HomePage";
 import AddProductPage from "../pages/AddProductPage";
 import ProductsDetails from "../pages/ProductsDetails";
-import MyCartPage from "../pages/MyCartPage";
 import BrandProductPage from "../pages/BrandProductPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import LoginPage from "../pages/LoginPage";
@@ -12,7 +11,6 @@ import ProtectedRoute from "../utilitis/ProtectedRoute";
 import {
   oneProductLoader,
   productOfBrands,
-  productsOfCart,
 } from "../utilitis/LoaderHandle";
 
 const Route = createBrowserRouter([
@@ -55,12 +53,7 @@ const Route = createBrowserRouter([
         path: "/brand/:brandName",
         element: <BrandProductPage />,
         loader: productOfBrands,
-      },
-      {
-        path: "/myCart",
-        element: <MyCartPage />,
-        // loader: productsOfCart,
-      },
+      }
     ],
   },
   {

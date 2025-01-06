@@ -163,7 +163,7 @@ const AddProductPage = ({ update }) => {
 
           <input
           disabled
-            className="px-4 w-full py-2 mt-4 rounded hover:bg-[#ab3154]  bg-[#FF497C] duration-200 text-white cursor-pointer font-semibold"
+            className="px-4 disabled:cursor-not-allowed w-full py-2 mt-4 rounded hover:bg-[#ab3154]  bg-[#FF497C] duration-200 text-white cursor-pointer font-semibold"
             type="submit"
             value="Add Product"
           />

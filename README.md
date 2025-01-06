@@ -5,8 +5,7 @@ GigaGadgets is a web application designed for showcasing and managing technology
 
 ## Key Features
 - Product Brands Listing
-- Product Page According To Brand
-- My Cart
+- Add new Product
 - Show Product Details
 - Authentication (email, password, Google login, GitHub login)
 - Dark mode, Light Mode
@@ -59,7 +58,7 @@ GigaGadgets is a web application designed for showcasing and managing technology
 ![Add Product Page](https://i.postimg.cc/MHx57Sht/add-product.png)
 
 ### Product Details Page
-![Product Details Page]()
+![Product Details Page](https://i.postimg.cc/mDMM7YPQ/detail.png)
 
 
 ### Not Found Page

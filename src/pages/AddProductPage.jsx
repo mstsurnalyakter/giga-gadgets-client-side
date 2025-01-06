@@ -2,7 +2,6 @@
 import useAuth from "../hooks/useAuth.jsx";
 import Swal from "sweetalert2";
 
-// import baseURL from '../utilitis/url.js'
 const AddProductPage = ({ update }) => {
 
   const { user } = useAuth() || {};
@@ -26,7 +25,7 @@ const AddProductPage = ({ update }) => {
 
     const info = { name, price, image, type, email,rating,brand };
     console.log(info);
-    //https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/products
+
 
     fetch("https://giga-gadgets-server-dt8gf3zh1-mdmitulhossen.vercel.app/products", {
       method: "POST",

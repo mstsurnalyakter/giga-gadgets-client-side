@@ -34,7 +34,6 @@ const Route = createBrowserRouter([
             <ProductsDetails />
            </ProtectedRoute>
         ),
-        // loader: oneProductLoader,
       }
     ],
   },

@@ -1,11 +1,9 @@
-import { useNavigate } from "react-router-dom";
 import "./Card.css";
 
 const BrandCard = ({brand}) => {
-  const navigate = useNavigate()
     const {brandName, imageURL} = brand || {};
   return (
-    <div onClick={()=>navigate(`/brand/${brandName}`)} className=" w-full group  cursor-pointer ">
+    <div  className=" w-full group  ">
         <div className="cardShadow p-5 w-full bg-white dark:bg-[#1a2641d5] rounded">
       <img
         className="w-full h-[150px] object-contain rounded-md"

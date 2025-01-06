@@ -1,6 +1,7 @@
 {
   "projects": {
-    "dist": "giga-gadgets-client"
+    "dist": "giga-gadgets-client",
+    "default": "giga-gadgets-client"
   },
   "targets": {},
   "etags": {}
